@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.navbar {
+  position: relative;
+  min-height: 100vh;
+  padding: 0 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.fon-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.fon-img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+
+.logo h1 {
+  margin: 0;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 50px;
+}
+
+.menu-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.search-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search {
+  font-size: 16px;
+  color: grey;
+  margin: 0;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 30px;
+  color: #ffc178;
+  margin: 15%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
+
+.main-title {
+  color: #ffffff;
+  font-size: 70px;
+  margin: 0;
+  margin-left: 20%;
+}
+
+.scroll {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 11%;
+  text-align: center;
+}
+
+.img1 {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.text1 {
+  color: #ffc178;
+  font-size: 20px;
+}
+
+.text2 {
+  font-size: 64px;
+}
+
+.read {
+  color: #ffc178;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+.read a {
+  text-decoration: none;
+  color: #ffc178;
+}
+
+.img2 {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.bromo {
+  text-align: center;
+  color: #ffc178;
+  size: 18px;
+  margin-top: 35%;
+}
+
+.text3 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 64px;
+  margin-top: 3%;
+}
+
+.text4 {
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.read2 {
+  color: #ffc178;
+  font-size: 18px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.read2 a {
+  text-decoration: none;
+  color: #ffc178;
+}
