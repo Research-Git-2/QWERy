@@ -106,7 +106,6 @@ body {
 }
 
 .text-container {
-  display: flex;
   flex-direction: column;
   margin-left: 15%;
   margin-top: 10%;
@@ -163,9 +162,50 @@ body {
   font-size: 18px;
   margin-top: 5%;
   text-align: center;
+  margin-bottom: 15%;
 }
 
 .read2 a {
+  text-decoration: none;
+  color: #ffc178;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.cont-outture {
+  flex-direction: column;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.img3 {
+  margin-left: 10%;
+}
+
+.text5 {
+  color: #ffc178;
+  font-size: 18px;
+}
+
+.text6 {
+  font-size: 60px;
+}
+
+.text7 {
+  line-height: 1.5;
+}
+
+.read3 {
+  color: #ffc178;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+.read3 a {
   text-decoration: none;
   color: #ffc178;
 }
